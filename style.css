@@ -1,0 +1,118 @@
+/* body {
+   margin: 0;
+} */
+
+h1 {
+  font-family: 'Open Sans';
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  
+  
+}
+p {
+  font-family: 'Open Sans';
+  color: white;
+    
+}
+
+.background {
+  background-image:url(https://images.unsplash.com/photo-1544921043-b7ce7280239d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1275&q=80);
+  background-position: center;
+  height: 500px;
+ 
+  
+  
+}
+.description {
+ font-size: 18px;
+  width: 65%;
+  
+  
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding-top: 300px;
+  padding-left:100px;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 16px 0 8px ;
+}
+a {
+  color: #fabb19;
+  text-decoration: none;
+}
+a::after {
+  content: 'READ MORE'
+}
+a:hover {
+  color: #cc9405;
+}
+a:active {
+  color: #8a6810;
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 240px;  
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+
+/* start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-item {
+  padding: 0 8px;
+  margin: 0 0 48px;
+  flex-grow: 1;
+  flex-basis: 340px;
+}
+
+.section-1 {
+  background:#ff0000;
+  width:100%;
+}
+.section-2 {
+  width:100%;
+  margin-top:40px;
+}
+
+.
+
